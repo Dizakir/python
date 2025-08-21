@@ -1,11 +1,11 @@
 # Task 1. Given a side of square. Find its perimeter and area.
 import math
 
-square_side = int(input('Side of the square:'))
+square_side = int(input('Side of the square in sm:'))
 square_perimeter = square_side*4
 square_area = square_side**2
-print(square_perimeter)
-print(square_area)
+print('Perimetri: ', square_perimeter, 'sm')
+print('Maydoni: ', square_area, 'sm')
 
 # Task 2. Given diameter of circle. Find its length.
 circle_diameter = int(input('Diameter of the circle:'))
